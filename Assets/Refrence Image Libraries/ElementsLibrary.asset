@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ElementsLibrary
+  m_EditorClassIdentifier: Unity.XR.ARSubsystems::UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
+  m_GuidLow: 5521977376377712955
+  m_GuidHigh: 3078318103244737180
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4850468239365720503
+      m_GuidHigh: 2606981975469182129
+    m_SerializedTextureGuid:
+      m_GuidLow: 17110522008670226045
+      m_GuidHigh: 13790607132318148264
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Fire
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4711616835237564496
+      m_GuidHigh: 2519739738615454114
+    m_SerializedTextureGuid:
+      m_GuidLow: 7540231521025040715
+      m_GuidHigh: 4805270468669835273
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Water
+    m_Texture: {fileID: 0}

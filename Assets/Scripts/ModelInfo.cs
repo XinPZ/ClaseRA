@@ -19,6 +19,10 @@ public class ModelInfo : MonoBehaviour
     //    modelName = newModelName;
     //}
 
-    [SerializeField] private ModelData modelData;
-    public ModelData Data => modelData;
+    //[SerializeField] private ModelData modelData;
+    //public ModelData Data => modelData;
+
+    [SerializeField] private ElementData data;
+
+    public ElementData ElementData { get => data; set => data = value; }
 }

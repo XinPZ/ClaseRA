@@ -37,15 +37,15 @@ public class ModelRaycast : MonoBehaviour
             {
                 ModelInfo modelInfo = hit.collider.GetComponent<ModelInfo>();
 
-                if(modelInfo != null && modelInfo.Data != null)
-                {
-                    ShowInfo(modelInfo.Data);
-                    //modelInfo.SetModelName = "Pan";
-                    //Debug.Log($"Selected Model Name: {modelInfo.SelectedModelName}");
-                    //modelInfo.SelectedModelName = "Bolillo";
+                //if(modelInfo != null && modelInfo.Data != null)
+                //{
+                //    ShowInfo(modelInfo.Data);
+                //    //modelInfo.SetModelName = "Pan";
+                //    //Debug.Log($"Selected Model Name: {modelInfo.SelectedModelName}");
+                //    //modelInfo.SelectedModelName = "Bolillo";
 
-                    //modelInfo.SetNewModelName("Concha");
-                }
+                //    //modelInfo.SetNewModelName("Concha");
+                //}
             }
         }
     }
